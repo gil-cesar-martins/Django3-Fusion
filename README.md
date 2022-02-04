@@ -11,11 +11,11 @@ Instale as dependências no <b>requirements.txt<b>:
  
  `export ENVIRONMENT == 'test'`
  
- Qualquer alteração nos <b>models<b> deve ser concluída com o comando:
+ Qualquer alteração nos **models** deve ser concluída com o comando:
  
  `python manage.py makemigrations`
  
- E depois migrar os <b>models<b> para o banco de dados:
+ E depois migrar os **models** para o banco de dados:
  
  `python manage.py migrate`
  
