@@ -1,4 +1,5 @@
 asgiref==3.4.1
+attrs==21.4.0
 beautifulsoup4==4.10.0
 bootstrap4==0.1.0
 certifi==2021.10.8
@@ -9,11 +10,17 @@ Django==4.0.1
 django-adminlte2==0.4.3
 django-stdimage==5.3.0
 gunicorn==20.1.0
+iniconfig==1.1.1
 model-mommy==2.0.0
+packaging==21.3
 Pillow==9.0.0
+pluggy==1.0.0
 progressbar2==4.0.0
 psycopg-binary==3.0.8
 psycopg2-binary==2.9.3
+py==1.11.0
+pyparsing==3.0.7
+pytest==7.0.0
 python-utils==3.1.0
 pytz==2021.3
 six==1.16.0
@@ -21,3 +28,4 @@ soupsieve==2.3.1
 sqlparse==0.4.2
 static3==0.7.0
 tblib==1.7.0
+tomli==2.0.0
