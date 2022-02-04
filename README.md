@@ -3,7 +3,7 @@
 Aplicativo onde uma equipe de desenvolvedores pode prestar diversos serviços aos clientes.
 
 ### Deploy local 
-Instale as dependências no <b>requirements.txt<b>:
+Instale as dependências no **requirements.txt**:
  
 `pip install -r requirements.txt`
  
