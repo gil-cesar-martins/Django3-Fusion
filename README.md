@@ -6,6 +6,28 @@ Aplicativo onde uma equipe de desenvolvedores pode prestar diversos serviços ao
 Instale as dependências no <b>requirements.txt<b>:
  
 `pip install -r requirements.txt`
-### Os programas instalados estão em requirements.txt
+ 
+ Exporte um ENVIRONMENT para definir o banco de dados para o teste
+ 
+ `export ENVIRONMENT == 'test'`
+ 
+ Qualquer alteração nos <b>models<b> deve ser concluída com o comando:
+ 
+ `python manage.py makemigrations`
+ 
+ E depois migrar os <b>models<b> para o banco de dados:
+ 
+ `python manage.py migrate`
+ 
+ Crie um superusuário para o gerenciamento do banco de dados:
+ 
+ `python manage.py createsuperuser`
+ 
+ Execute sua aplicação:
+ 
+ `python manage.py runserver`
+ 
+ Para acessar vá no seu navegador e  digite [http://localhost:8000](http://localhost:8000)
+
 
 
