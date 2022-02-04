@@ -9,3 +9,5 @@ __pycahe__
 .idea
 
 template/*
+
+htmlcov/*

@@ -1,0 +1,31 @@
+[run]
+source = .
+
+omit =
+    ./venv/*
+    */__init__.py
+    */settings.py
+    */node_modules/*
+    manage.py
+    */wsgi.py
+    */asgi.py
+    */apps.py
+    */urls.py
+    */admin.py
+    */migrations/*
+    */tests/*
+
+[report]
+omit =
+    ./venv/*
+    */__init__.py
+    */settings.py
+    */node_modules/*
+    manage.py
+    */wsgi.py
+    */asgi.py
+    */apps.py
+    */urls.py
+    */admin.py
+    */migrations/*
+    */tests/*
