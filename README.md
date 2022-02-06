@@ -5,7 +5,7 @@ Aplicativo onde uma equipe de desenvolvedores pode prestar diversos serviços ao
 ### Deploy local 
 Instale as dependências no **requirements.txt**:
  
-`pip install -r requirements.txt`
+`pip freeze > requirements.txt`
  
 Exporte um ENVIRONMENT para definir o banco de dados para o teste
  
