@@ -3,6 +3,10 @@
 Aplicativo onde uma equipe de desenvolvedores pode prestar diversos serviços aos clientes.
 
 ### Deploy local 
+Instale as seguinte bibliotecas com o comando pip:
+
+`pip install django psycopg2-binary gunicorn dj-static django-stdimage dj-database-url progressbar2`
+
 Instale as dependências no **requirements.txt**:
  
 `pip freeze > requirements.txt`
